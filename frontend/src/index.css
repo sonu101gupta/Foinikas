@@ -1,0 +1,268 @@
+@import "tailwindcss";
+/* index.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.extraLargeText {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 7.5rem;
+}
+
+.hero-text {
+    font-family: 'Satoshi', sans-serif;
+
+}
+
+.titleText {
+    font-family: "Crimson Pro", serif;
+    font-weight: 700;
+    font-size: 5.5rem;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.secondaryTitle {
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 85.13px;
+    letter-spacing: -2%;
+    /* text-align: center; */
+
+}
+
+.tertiaryTitle {
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    /* text-align: center; */
+
+}
+
+.paragraph {
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 50px;
+    padding: 20px 0;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.menu-item {
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.primary-btn {
+    width: 150px;
+    height: 45px;
+    border-radius: 30px;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #fff;
+    background: rgba(195, 65, 114, 1);
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.home-btn {
+    width: 250px;
+    height: 45px;
+    border-radius: 30px;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #fff;
+    color: rgba(195, 65, 114, 1);
+    background: #fff;
+    transition: 0.5s;
+
+}
+
+.secondary-btn {
+    width: 250px;
+    height: 45px;
+    border-radius: 30px;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgba(195, 65, 114, 1);
+    background: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.secondary-btn:hover {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+
+.form-label {
+    font-size: 1rem;
+    color: #fff;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 500;
+}
+
+.form-input {
+    width: 100%;
+    /* height: 30px; */
+    background-color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.hide-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.primary-btn:hover{
+    transform: scale(1.00001);
+}
+
+.home-btn:hover{
+    transform: scale(1.00001);
+}
+
+.secondary-btn:hover{
+    transform: scale(1.00001);
+}
+
+
+@media screen and (max-width: 1800px) {
+    .titleText {
+        font-family: "Crimson Pro", serif;
+        font-weight: 700;
+        font-size: 2.5rem;
+        color: #fff;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .secondaryTitle {
+        font-family: 'Satoshi', sans-serif;
+        font-weight: 600;
+        font-size: 2.5rem;
+        line-height: 44.13px;
+        letter-spacing: -2%;
+        /* text-align: center; */
+
+    }
+
+    .paragraph {
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 500;
+        font-family: 'Satoshi', sans-serif;
+        line-height: normal;
+        padding: 0px 0;
+    }
+
+    .primary-btn {
+        width: 150px;
+        height: 45px;
+        border-radius: 30px;
+        font-family: 'Satoshi', sans-serif;
+        font-weight: 600;
+        font-size: 1rem;
+        color: #fff;
+        background: rgba(195, 65, 114, 1);
+        cursor: pointer;
+        transition: 0.5s;
+    
+    }
+    
+    .secondary-btn {
+        width: 150px;
+        height: 45px;
+        border-radius: 30px;
+        font-family: 'Satoshi', sans-serif;
+        font-weight: 600;
+        font-size: 1rem;
+        color: rgba(195, 65, 114, 1);
+        background: #fff;
+    
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .home-btn {
+        width: 250px;
+        height: 45px;
+        border-radius: 30px;
+        font-family: 'Satoshi', sans-serif;
+        font-weight: 600;
+        font-size: 1rem;
+        color: #fff;
+        color: rgba(195, 65, 114, 1);
+        background: #fff;
+        transition: 0.5s;
+    
+    }
+
+    .primary-btn:hover{
+        transform: scale(1.1);
+    }
+
+    .home-btn:hover{
+        transform: scale(1.1);
+    }
+
+    .secondary-btn:hover{
+        transform: scale(1.1);
+    }
+}
+
+
+@media (max-width: 575px) {
+    /* Mobile-specific styles here */
+
+    .extraLargeText {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+        font-size: 4rem;
+    }
+
+    .titleText {
+        font-weight: 700;
+        font-size: 2rem;
+
+    }
+
+    .secondaryTitle {
+        font-weight: 600;
+        font-size: 1.8rem;
+
+    }
+
+    .tertiaryTitle {
+        font-weight: 700;
+        font-size: 1.3rem;
+        line-height: 100%;
+
+
+    }
+
+    .paragraph {
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+}
