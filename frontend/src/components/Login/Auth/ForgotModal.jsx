@@ -8,7 +8,7 @@ const ForgotModal = ({ setShow }) => {
     const [disable, setDisable] = useState(false);
     const [showPopup, setShowPopup] = useState(false);
 
-    const BASE_URL_AUTH_RENDER = "https://fonikas-backend.onrender.com/api/pass"
+    const BASE_URL_AUTH_RENDER = "http://16.171.109.165:5001/api/pass"
     const localhost_URL = "http://localhost:5001/api/pass"
 
     const validate = () => {
