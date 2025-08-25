@@ -9,7 +9,7 @@ const AuthCard = ({ setShow }) => {
 
     const location = useLocation();
     const navigate = useNavigate();
-    const BASE_URL_AUTH_RENDER = "http://34.252.136.246:5001/api/auth"
+    const BASE_URL_AUTH_RENDER = "https://foinikasinvest.com/api/auth"
     const localhost_URL = "http://localhost:5001/api/auth"
     const [mode, setMode] = useState("Signup");
     const [form, setForm] = useState({

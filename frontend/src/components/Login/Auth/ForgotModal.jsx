@@ -8,7 +8,7 @@ const ForgotModal = ({ setShow }) => {
     const [disable, setDisable] = useState(false);
     const [showPopup, setShowPopup] = useState(false);
 
-    const BASE_URL_AUTH_RENDER = "http://34.252.136.246:5001/api/pass"
+    const BASE_URL_AUTH_RENDER = "https://foinikasinvest.com/api/pass"
     const localhost_URL = "http://localhost:5001/api/pass"
 
     const validate = () => {
